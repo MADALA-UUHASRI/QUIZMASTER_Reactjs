@@ -4,6 +4,7 @@ import Home from './Home'; // Adjust path as necessary
 import Quiz from './Quiz'; // Adjust path as necessary
 import Login from './login'; // Adjust path as necessary
 import Profile from './Profile'; // Adjust path as necessary
+import Register from './reg'; // Adjust path as necessary
 function App() {
   return (
     <Router>
@@ -13,6 +14,7 @@ function App() {
         <Route path="/quiz" element={<Quiz />} />
         <Route path="/login" element={<Login />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/reg" element={<Register />} /> 
         {/* Catch-all route for undefined paths */}
       </Routes>
     </Router>
